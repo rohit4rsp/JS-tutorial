@@ -19,11 +19,12 @@ let arrelement = arr[0];
 let value = marks.indexOf(73);
 // console.log(value)
 
-// Mutating or Modifying arrays
-// marks.push(3564);
-// marks.unshift(1009);
-// marks.pop()
-// marks.shift()
+    // Mutating or Modifying arrays
+
+// marks.push(3564);     //at the end
+// marks.unshift(1009);    //at the start
+// marks.pop()    //remove from end
+// marks.shift()   //remove from start
 // marks.splice(2, 3);
 // marks.reverse()
 let marks2 = [1, 2,3, 7]
@@ -31,7 +32,7 @@ marks = marks.concat(marks2);
 // console.log(marks);
 
 let myobj = {
-    'first name': 'harry', 
+    'first name': 'Rohit', 
     channel: 'CodeWithHarry',
     isActive: true,
     marks: [1,5,3,6]
